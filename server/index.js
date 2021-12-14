@@ -24,4 +24,4 @@ app.get('/hanghoa', (req, res) => {
     })
 })
 
-app.listen(process.env.PORT, process.env.KEVIL_HOST, () => console.log('Server listening on port ' + process.env.PORT))
+app.listen(process.env.PORT, () => console.log('Server listening on port ' + process.env.PORT))
